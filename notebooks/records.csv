@@ -1,0 +1,10 @@
+model,data,notes,result
+XGBoost,tslearn features,,Best (0.95ish)
+handmade wavenet," minmax Normalized, FFT filtered",, tied for 2nd  (~0.86)
+TCN wavenet, minmax Normalized,, tied for 2nd  (~0.91)
+TCN wavenet,Converted Matrix Profiles,,Was okay (~0.5ish)
+TCN wavenet," minmax Normalized, FFT filtered",,Not Great
+handmade wavenet, minmax Normalized,,Not Great
+XGBoost,"tslearn features, filtered 40hz",,Bad
+XGBoost,"tslearn features, minmax normalized",,Bad
+XGBoost,"tslearn features, 40hz filtered, minmax normalized",,Bad
